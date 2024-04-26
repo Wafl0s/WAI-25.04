@@ -22,15 +22,15 @@ header {
     text-align: center;
     font-size: 10vh;
     text-transform: uppercase;
-    color: yellow;
-    background-color: orange;
+    color: white;
+    background-color: rgb(51, 2, 2);
 }
 
 nav {
     height: 8vh;
     padding-top: 1.52vh;
     padding-left: 0.33vw;
-    background-color: #D4B776;
+    background-color: #523c3c;
 }
 
 nav a {
@@ -39,16 +39,17 @@ nav a {
     font-size: 4vh;
     font-weight: bold;
     text-decoration: none;
-    border:6px solid yellow;
+    border:6px solid black;
     border-radius: 6px;
     color: white;
-    background-color: orange;
+    background-color: rgb(51, 2, 2);
 }
 
 main{
     height: 70vh;
     padding-top: 6vh;
     text-align: center;
+    background-color: black;
 }
 
 img {
@@ -61,15 +62,17 @@ footer{
     padding-top: 1.1vh;
     padding-right: 1vw;
     text-align: right;
-    background-color: #EBCF98;
+    background-color: #523c3c;
 }
 
 .mail, .tel {
     display: inline;
     font-weight: bold;
+    color: white;
 }
 
-footer a {
+.nr, .add {
+    display: inline;
     text-decoration: none;
-    color: black;
+    color: white;
 }
